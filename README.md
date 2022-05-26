@@ -1,8 +1,8 @@
 # cambiar-formato-de-fecha-de-base-de-datos-sql-a-formato-latino
 Cambiar el formato de fecha de Base de Datos SQL de "2023-05-05 12:30:17"  a formato latino "05 MAYO, 2023" con PHP
 
-    // Convierte formato de Base Datos de esto "2022-05-05 12:30:17" 
-    // a esto "05 MAYO, 2022"
+    // Convierte formato de Base Datos de esto "2023-05-05 12:30:17" 
+    // a esto "05 MAYO, 2023"
     function fecha_latino_DB($fecha_base_dato){ 
         // Separamos la fecha de la Hora
         $fecha = explode(' ', $fecha_base_dato)[0];
